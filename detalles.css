@@ -1,0 +1,53 @@
+header{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: 2px solid green;
+    background-image: url('bXhpbjZ1S3NvPQ.webp');
+    opacity: 0.9;
+}
+body{
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
+}
+
+.inicio{
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    font-size: large;
+}
+
+.temario{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: lightgray;
+    
+}
+
+.unidad{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    background-color: lightslategray;
+}
+
+.unidad.practicas{
+    color: blue;
+    background-color: lightblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
